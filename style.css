@@ -21,7 +21,6 @@ a:-webkit-any-link {
     font-family: 'College-Block';
 }
 
-
 .jogo {
    
     font-weight: 400;
@@ -47,7 +46,7 @@ a:-webkit-any-link {
 }
 
 .card-img {
-    width: 80%;
+    width: 140%;
     height: auto;
     display: block;
     margin-top: 20px;
@@ -64,4 +63,55 @@ a:-webkit-any-link {
     margin: 0 0 10px;
     font-weight: bold;
     color: #333;
+}
+
+.titulo {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.voltar {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    background-color: #FFE19D;
+    border-radius: 30px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.voltar:hover {
+    background-color: #d9c86a;
+    color: #222;
+}
+
+.historia {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+    white-space: pre-wrap; 
+}
+
+.rodape {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 0.9rem;
 }
